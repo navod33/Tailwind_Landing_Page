@@ -1,12 +1,12 @@
 import React from 'react'
-// import { heroMain } from "../assets/images";
+
 
 
 function Hero() {
   return (
     <section className='w-full flex flex-col xl:flex-row max-container h-[800px]  gap-10'>
      
-            <div className='flex flex-1 justify-center items-start flex-col max-container gap-10 w-full ml-10'>
+            <div className='flex flex-1 justify-center items-start flex-col max-container gap-10 w-full'>
                 <h1 className='text-[2.3rem] font-montserrat text-dark-blue font-bold'>Introduce Your Product <br/>Quickly & Effectively</h1>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
                     Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus <br></br><br></br>
@@ -19,12 +19,12 @@ function Hero() {
                     </button>
                 </div>
             </div>
-            <div className='flex justify-center items-center flex-1'>
-                <img src="https://tailus.io/sources/blocks/food-delivery/preview/images/food.webp" 
+            <div className='flex justify-center items-center flex-1 z-10 ml-auto'>
+                <img src="src\assets\images\heroMain.png" 
                 alt=""
-                width={610}
+                width={500}
                 height={502}
-                className='object-contain relative z-10'
+                className='object-contain relative z-10 right-0'
                 />
             </div>
       
